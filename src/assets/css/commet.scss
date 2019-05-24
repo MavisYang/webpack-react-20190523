@@ -1,0 +1,13 @@
+
+$img-path:'/';
+
+@mixin fontSize($f, $w) {
+  font-family: "PingFang SC";
+  font-size: $f+px;
+  font-weight: $w;
+}
+
+@mixin widthHight($w, $h) {
+  width: $w+px;
+  height: $h+px;
+}

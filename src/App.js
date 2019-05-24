@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import HomePage from './components/HomePage';
+import img1 from './assets/images/wrong.png'
 export default class App extends Component {
-    componentDidMount() {
-        
-    }
-    
     render() {
         return (
             <div className='content'>
@@ -15,6 +12,11 @@ export default class App extends Component {
                     }
                 </p>
                 <HomePage></HomePage>
+                <img src={img1}></img>
+                {/* <img src={'./assets/images/bg.png'}></img> */}
+                {/* <img src={require('./assets/images/wrong.png')}></img> */}
+                {/* <img src={require('./images/wrong.png')}></img>
+                <img src={require('./images/bg.png')}></img> */}
 
             </div>
         );

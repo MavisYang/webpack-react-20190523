@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LoginModal from './LoginModal';
+import "./home.css";
 export default class HomePage extends Component {
   constructor(props){
     super(props)
