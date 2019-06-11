@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import HomePage from './components/HomePage';
 import img1 from './assets/images/wrong.png'
+import bg from './assets/images/bg.png'
 export default class App extends Component {
     render() {
         return (
-            <div className='content'>
+            // <div className='content' style={{ backgroundImage: `url(${bg})` }}>
+            <div className='content' style={{ backgroundImage: `url(${bg})`}}>
                 <h1>Hello React!</h1>
                 <p>
                     {
